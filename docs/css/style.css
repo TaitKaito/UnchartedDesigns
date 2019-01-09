@@ -1,0 +1,129 @@
+/*	Portfolio
+	Color scheme
+	Off-white blue: #EDF4F5
+	Orange: #F78F1E
+	Teal: #054950
+	Light Teal: #789A9F
+	White: #FFFFFF
+*/
+
+HTML body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family: 'Slabo 27px';
+	color: #054950;
+}
+
+#SideNav{
+	width: 10%;
+	height: 100%;
+	background-color: #054950;
+	float: left;
+	position: fixed;
+}
+
+#Logo{
+	height: 7.5%;
+	width:100%;
+	background-color: #F78F1E;
+	margin-top: 0%;
+	display: inline-block;
+	background-image: url("../Images/UnchartedDesignsINT1.png");
+	background-size: 100%;
+}
+
+#nav{
+	Margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 0;
+	font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	padding: 2px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #789A9F;
+}
+
+#footerSec{
+	width: 100%;
+	height: 10%;
+	background-color: #F78F1E;
+}
+
+#Footer {
+	width: 100%;
+	height: 90%;
+	background-color: #789A9F;
+	margin-top: 10%;
+}
+
+#BuildBody{
+	width: 90%;
+	height:100%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+#Header {
+	width: 100%;
+	height: 7.5%;
+	background-color: #F78F1E;
+	display: inline-block;
+	color: #edf4f5;
+	font-family: 'Slabo 27px';
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(120,154,159,1);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(120,154,159,1);
+	box-shadow: 0px 5px 5px 0px rgba(120,154,159,1);
+}
+
+#headerText{
+	margin-left: 5%;
+}
+
+#contentBoxL{
+	width: 40%;
+	height: 20%;
+	background-color: #EDF4F5;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	float: left;
+	display: inline-block;
+}
+
+#contentBoxR{
+	width: 40%;
+	height: 20%;
+	background-color: #EDF4F5;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	float: right;
+	display: inline-block;
+}
+
+#contentSpan{
+	width: 90%;
+	height: 20%;
+	background-color: #EDF4F5;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	display: inline-block;
+}
